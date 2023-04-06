@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="Credit.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1 class="credit">Calculator rată credit</h1>
+    <form>
+        <label>Insereaza suma</label>
+        <input type="number" class="suma" placeholder="RON">
+        <br>
+        <br>
+        <label>Rata dobanzii anuala</label>
+        <input type="number" class="rata" placeholder="%">
+        <br>
+        <br>
+        <label>Perioada de timp (ani)</label>
+        <input type="number" class="timp">
+        <br>
+        <br>
+        <button class="btn" type="button">Calculeaza</button>
+        <p id="total"></p>
+    </form>
+
+    <br>
+    <br>
+    <h1 class="dobanda">Calculator rată dobândă</h1>
+    <form>
+        <label>Insereaza suma</label>
+        <input type="number" class="suma-depozit" placeholder="RON">
+        <br>
+        <br>
+        <label>Dobanda</label>
+        <input type="number" class="valoare-dobanda" placeholder="%">
+        <br>
+        <br>
+        <label>Perioada de timp (luni)</label>
+        <input type="number" class="perioada">
+        <br>
+        <br>
+        <button class="buton" type="button">Calculeaza</button>
+        <p id="valoare-totala"></p>
+    </form>
+    <script src="Credit.js"></script>
+</body>
+</html>
