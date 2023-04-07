@@ -4,30 +4,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="Credit.css">
-    <title>Calculator Credit</title>
+    <link rel="stylesheet" type="text/css" href="Depozit.css">
+    <title>Calculator Depozit</title>
 </head>
 <body>
     <button class="nav" onclick="window.location.href='HomePage.html'">HomePage</button>
     <button class="nav" onclick="window.location.href='Despre.html'">Despre</button>
     <button class="nav" onclick="window.location.href='Credit.html'">Credit</button>
     <button class="nav" onclick="window.location.href='Depozit.html'">Depozit</button>
-    <h1 class="credit">Calculator rată credit</h1>
+    <h1 class="dobanda">Calculator rată dobândă</h1>
     <form>
         <label>Insereaza suma</label>
-        <input type="number" class="suma" placeholder="RON">
+        <input type="number" class="suma-depozit" placeholder="RON">
         <br>
         <br>
-        <label>Rata dobanzii anuala</label>
-        <input type="number" class="rata" placeholder="%">
+        <label>Dobanda</label>
+        <input type="number" class="valoare-dobanda" placeholder="%">
         <br>
         <br>
-        <label>Perioada de timp (ani)</label>
-        <input type="number" class="timp">
+        <label>Perioada de timp (luni)</label>
+        <input type="number" class="perioada">
         <br>
         <br>
-        <button class="btn" type="button">Calculeaza</button>
-        <p id="total"></p>
+        <button class="buton" type="button">Calculeaza</button>
+        <p id="valoare-totala"></p>
     </form>
+    <script src="Depozit.js"></script>
 </body>
 </html>

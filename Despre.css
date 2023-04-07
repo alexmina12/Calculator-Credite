@@ -1,0 +1,18 @@
+p {
+    text-indent: 50px;
+    margin: 50px 200px;
+}
+
+h1 {
+    text-align: center;
+}
+
+button {
+    color: white;
+    font-style: oblique;
+    font-weight: bold;
+    background-color: rgba(120, 1, 84, 0.664);
+    width: 24%;
+    margin-left: 5px;
+    margin-right: 5px;
+}
